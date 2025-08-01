@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn about the basics of HTML5 and how to write clean, accessible, and SEO-friendly web pages." />
+    <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web development" />
+    <meta name="author" content="Erick Mutua" />
+    <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to my HTML5 + Accessibility & SEO Basics page</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#seo">SEO Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>This page is demonstrating the proper HTML5 structure using semantic tags, accessible attributes, and
+                SEO-friendly content.</p>
+
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <article>
+                <h3>Semantic tags</h3>
+                <p>Using elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>,
+                    <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> helps define the meaning of content
+                    clearly.
+                </p>
+            </article>
+
+            <article>
+                <h3>Accessibility</h3>
+                <p>Labels and ARIA attributes are included to improve support for screen readers and assistive tools.
+                </p>
+
+
+            </article>
+
+            <article>
+                <h3>SEO Best Practices</h3>
+                <p>Metadata, meaningful headings, and structured content help search engines understand this page.</p>
+            </article>
+        </section>
+
+        <section id="seo">
+            <h2>SEO tips for beginners</h2>
+            <article>
+                <h3>Use clear descriptive headings</h3>
+                <p>Headings guide users and search engines through your content. Start with one <code>&lt;h1&gt;</code>,
+                    followed by <code>&lt;h2&gt;</code> and <code>&lt;h3&gt;</code> for subtopics.</p>
+
+
+            </article>
+
+            <article>
+                <h3>Write Human-Friendly Content</h3>
+                <p>Content should be easy to read and describe the topic clearly. Avoid keyword stuffing and write
+                    naturally for your audience.</p>
+
+            </article>
+
+            <h3>Include Metadata</h3>
+            <p>Metadata in the <code>&lt;head&gt;</code> section -> like <code>&lt;title&gt;</code> and
+                <code>&lt;meta name="description"&gt;</code> -> help search engines understand and display your content
+                better in search results.
+            </p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form aria-label="Contact Form">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Erick Mutua. All rights reserved.</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+
+</body>
+
+
+</html>
